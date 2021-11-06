@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gochat">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".ChatListActivity$User"
+        android:allowBackup="true"
+        android:icon="@drawable/gochat"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/gochat"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".Find.FindResultActivity"></activity>
+        <activity android:name=".Find.FindNextActivity" />
+        <activity android:name=".Find.FindPasswordActivity" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".communityActivity" />
+        <activity android:name=".loading_Activity" />
+        <activity android:name=".PersonalActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".FriendWebActivity" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".ChatListActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
